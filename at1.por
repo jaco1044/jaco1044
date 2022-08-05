@@ -1,43 +1,39 @@
 programa
 {
-	
 	funcao inicio()
 	{
-     real n1, n2, n3, m
-	
-		escreva("Digite a primeira nota ")
-		leia(n1)
-		escreva("Digite a segunda nota ")
-		leia(n2)
-		escreva("Digite a terceira nota ")
-		leia(n3)
+		inteiro a,b
+
+		
+		escreva("Digite o valor de: ")
+		leia(a)
+
 		
 
-		m = (n1 + n2 + n3) / 3
+	 b = a%9
 
-	se(m>=6)
-	{
-			escreva("Aprovado!")
+
+	 	se(b==0){
+	 		escreva("\nA esse números é multiplo de 9: ")
+	 	}
+	 	senao{
+	 		escreva("\nA esse numero nao e multiplo de 9")
+	 	}
 		
+		
+
+
+
+		 
 	}
-	senao{
-		escreva("Reprovado")
-	}
-
-
-
-
 }
-}
-
-
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 319; 
+ * @POSICAO-CURSOR = 204; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
